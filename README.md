@@ -1,8 +1,10 @@
 <h1 align="center">
   <br>Z_FORMAT_USD_TO_BRL</h1>
 
-
-Import a value in USD format and get the same value in BRL format (no conversion). 
+Hi, good to see you around! This repository contains a function that imports a value in USD format (I_USD_VALUE) and exports the same value in BRL format (E_BRL_VALUE).
+<br>
+<br>
+Note: this function does not convert currency, it is specifically for formatting. If you want this, check out the CONVERT_TO_LOCAL_CURRENCY function. 
 
 ## Function: 
 
@@ -16,3 +18,5 @@ Import a value in USD format and get the same value in BRL format (no conversion
            value        TYPE KBETR,           <br>
          END OF ty_saida.                     <br>     
   MOVE sap_vtb_market-value TO lt_saida-value.<br>
+  
+  ✨ Thanks for your attention! ✨
