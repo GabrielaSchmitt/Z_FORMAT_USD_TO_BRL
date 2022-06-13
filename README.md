@@ -8,9 +8,9 @@ Note: this function does not convert currency, it is specifically for formatting
 
 ## Function: 
 
-![image](https://user-images.githubusercontent.com/86369677/173426813-016f3ded-b448-40ea-8793-48cb0c37acc6.png)
+![image](https://user-images.githubusercontent.com/86369677/173429901-c03a64c4-15a1-4f50-b590-924f9f4c91d8.png)
 <br>
-![image](https://user-images.githubusercontent.com/86369677/173426886-724ede51-12c5-4f59-b90c-854c43e6e497.png)
+![image](https://user-images.githubusercontent.com/86369677/173430058-ca2d6136-7243-4f66-b2da-4ac31ea0f6f1.png)
 
 ### Depending on the scenario, you do not need a function. Try to apply a mask on your field. See the above example:
 
