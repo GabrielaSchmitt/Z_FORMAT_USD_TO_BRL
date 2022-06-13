@@ -4,7 +4,7 @@ FUNCTION z_format_usd_to_brl.
 *"  IMPORTING
 *"     REFERENCE(I_USD_VALUE) TYPE  STRING
 *"  EXPORTING
-*"     REFERENCE(I_BRL_VALUE) TYPE  STRING
+*"     REFERENCE(E_BRL_VALUE) TYPE  STRING
 *"----------------------------------------------------------------------
   DATA: v_usd    TYPE string,
         v_format TYPE string,
@@ -42,6 +42,6 @@ FUNCTION z_format_usd_to_brl.
 
 
 v_format = |{ v_format }| & |,| & |{ v_depois }|.
-I_BRL_VALUE = v_format.
+E_BRL_VALUE = v_format.
 
 ENDFUNCTION.
