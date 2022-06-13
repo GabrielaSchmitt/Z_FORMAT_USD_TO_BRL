@@ -10,7 +10,7 @@ Import a value in USD format and get the same value in BRL format (no conversion
 <br>
 ![image](https://user-images.githubusercontent.com/86369677/173426886-724ede51-12c5-4f59-b90c-854c43e6e497.png)
 
-### Depending on the cenario, you do not need a function. Try to apply a mask on your field. See the above example: 
+### Depending on the scenario, you do not need a function. Try to apply a mask on your field. See the above example:
 
   TYPES: BEGIN OF ty_saida,                   <br>
            value        TYPE KBETR,           <br>
